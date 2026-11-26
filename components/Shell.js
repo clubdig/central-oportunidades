@@ -31,6 +31,7 @@ export default function Shell({ title, subtitle, acoes, children }) {
           <Link href="/projetos/maracana">🔵 Maracanaú</Link>
           <Link href="/projetos/riopreto">🟠 Rio das Pedras</Link>
           <Link href="/projetos/enap">🟣 ENAP</Link>
+          <Link href="/projetos/sicaf">🟢 SICAF / Compras.gov.br</Link>
         </nav>
         <div className="foot">
           Trabalho conjunto.<br />
