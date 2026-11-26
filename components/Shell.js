@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 
 const NAV = [
   { href: "/", label: "📊 Visão geral", exact: true },
+  { href: "/radar", label: "📡 Radar PNCP" },
   { href: "/projetos", label: "📁 Projetos" },
   { href: "/tarefas", label: "✅ Tarefas" },
   { href: "/prazos", label: "⏰ Prazos" },
