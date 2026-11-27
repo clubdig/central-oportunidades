@@ -17,7 +17,7 @@ export default function Dashboard({ resumo, projetos, tarefas, atividades }) {
   return (
     <Shell title="Visão geral" subtitle={hoje} acoes={<Link href="/tarefas" className="btn">+ Nova tarefa</Link>}>
       <div className="alert alert-warn">
-        ⏰ <strong>Prazo crítico hoje:</strong> proposta SEMAE Mogi até 08:00 · Rio das Pedras até 08:59 · ENAP até 10:00. Foque na Mogi (R$ 49.000).
+        ⏰ <strong>Prazo ativo:</strong> SEMAE Mogi até <strong>30/11 às 08:00</strong> (prorrogado). Rio das Pedras, ENAP e Maracanaú encerraram em 26/11 — verificar resultados. Foque na Mogi (R$ 49.000).
       </div>
 
       <div className="grid g4">
